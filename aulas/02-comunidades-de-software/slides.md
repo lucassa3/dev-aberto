@@ -45,7 +45,7 @@ Suponha que você decidiu liberar um projeto que você desenvolveu nos últimos 
 
 #
 
-Como você lidaria com isto?
+Como você lidaria com isto? **10 minutos**
 
 ---
 

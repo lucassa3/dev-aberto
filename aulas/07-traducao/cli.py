@@ -3,6 +3,8 @@ from datetime import date
 from datetime import date, datetime, time
 from babel.dates import format_date, format_datetime, format_time
 from babel.numbers import format_number, format_decimal, format_percent
+import gettext
+gettext.install('cli', localedir='locale')
 
 if __name__ == '__main__':
     today = date.today()
@@ -16,5 +18,5 @@ if __name__ == '__main__':
     print(number)
 
     
-    name = input('Input your name: ')
+    name = input(_('Input your name: '))
     print('Hello {}'.format(name))
